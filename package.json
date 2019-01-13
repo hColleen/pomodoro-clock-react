@@ -1,5 +1,6 @@
 {
   "name": "pomodoro-clock-react",
+  "homepage": "https://hcolleen.github.io/pomodoro-clock-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +13,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -25,6 +28,7 @@
   ],
   "devDependencies": {
     "bootstrap": "^4.0.0-beta",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.6"
   }
