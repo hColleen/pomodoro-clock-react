@@ -8,7 +8,7 @@ To use and/or develop this project on your own system:
 ### Pre requisites
 1. Node/npm installed
 2. React
-3. Internet connection (the rest/alarm is an online YouTube video)
+3. Internet connection (the rest/alarm is an online YouTube video and Bootstrap is from CDN)
 ### Installing
 1. Download files into the same folder
 2. Using Terminal, navigate to the folder
@@ -25,3 +25,4 @@ To use and/or develop this project on your own system:
 
 ## TODO
 1. Replace video with `Rest` timer
+2. Fix `popper.js` error when running with Bootstrap package
