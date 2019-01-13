@@ -9,10 +9,10 @@ const leftPad = (val) => {
 
 const TimerDisplay = (props) => (
   <div>
-    <div className="row center-block">
+    <div className="row center-block" id="breakDisplay">
       {
         (props.timerState === timerStates.COMPLETE)
-        && <iframe title = "Break Time" className="center-block youtube-responsive-width" height="315" src="https://www.youtube.com/embed/nrAgK0S9hx4?autoplay=1&start=104&controls=0&showinfo=0"></iframe>
+        && <iframe title = "Break Time" className="center-block youtube-responsive-width" height="315" src="https://www.youtube.com/embed/gVKEM4K8J8A?rel=0;autoplay=1&controls=0&showinfo=0" allow = "autoplay"></iframe>
       }
     </div>
     <div className="row" id = "timeDisplay">

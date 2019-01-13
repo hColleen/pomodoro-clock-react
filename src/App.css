@@ -39,10 +39,24 @@ body{
   margin-bottom: 8px;
 }
 
+iframe,
+#breakDisplay{
+  margin: auto;
+}
 h2{
   margin: auto;
 }
 
 .btn{
   margin: auto;
+}
+
+label{
+  color: #eee;
+}
+
+input[type=number]{
+  background: #ccc;
+  color: #222;
+  border: #666;
 }
